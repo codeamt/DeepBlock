@@ -18,7 +18,7 @@ Researchers, use our app to submit projects in need of training. Blockchain Mine
 - Email/Oauth2 Authorization, GitHub Integration
 - Distributes ad-hoc AI training sessions
 - Rations project-based payouts
-- AI model indexing with stats published blockchain
+- AI model indexing with stats published to local and Ethereum blockchain
 - Ethereum-based mobile wallet included
 
 # Phase 1: Specs & Wireframes (Preview)
