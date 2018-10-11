@@ -114,10 +114,12 @@ The above UI map details the home screen widget flow for the app.
 The widget pairs with the Session Activity to broadcast the progress of training. Clicking through on the widget calls the Session UI back into the foreground. In future iterations, Users will be able to pause/resume Session from the Home/Lock Screen interfaces. 
 
 ## Key Considerations
-***How will your app handle data persistence?***<br><br>
+***How will your app handle data persistence?***
+<br><br>
 I’ll use Room to persist 90% of data in the form of 2-3 SQL tables, and attempt to use IPFS to cache unstructured data otherwise persist these files to a Firebase DB. I’ll also use Shared Preferences for storing user defined preferences. 
 
-***Describe any edge or corner cases in the UX.***<br><br>
+***Describe any edge or corner cases in the UX.***
+<br><br>
 Users have options for importing (in addition to uploading) their NN models and training data by, syncing with a GitHub account.
 
 The screen that ties with the Neural Network Fitting Session Activity will likely consume a lot of power. Users can pre-configure session settings to balance between hardware acceleration and battery usage, according to their preferences. These changes will be reflected in the Settings Activity.  
